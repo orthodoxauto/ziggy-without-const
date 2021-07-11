@@ -158,7 +158,7 @@ class BladeRouteGeneratorTest extends TestCase
         $this->assertSame(
             <<<HTML
 <script type="text/javascript">
-    const Ziggy = {$json};
+    var Ziggy = {$json};
 
     {$routeFunction}
 </script>

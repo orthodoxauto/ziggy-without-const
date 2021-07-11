@@ -26,7 +26,7 @@ class BladeRouteGenerator
 
         return <<<HTML
 <script type="text/javascript"{$nonce}>
-    const Ziggy = {$ziggy};
+    var Ziggy = {$ziggy};
 
     $routeFunction
 </script>

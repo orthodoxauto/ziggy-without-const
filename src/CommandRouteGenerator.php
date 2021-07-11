@@ -37,7 +37,7 @@ class CommandRouteGenerator extends Command
         $payload = (new Ziggy($group, $this->option('url') ? url($this->option('url')) : null))->toJson();
 
         return <<<JAVASCRIPT
-const Ziggy = {$payload};
+var Ziggy = {$payload};
 
 if (typeof window !== 'undefined' && typeof window.Ziggy !== 'undefined') {
     Object.assign(Ziggy.routes, window.Ziggy.routes);
