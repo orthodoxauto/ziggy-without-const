@@ -1,6 +1,6 @@
 {
     "name": "orthodoxauto/ziggy-without-const",
-    "description": "Generates a Blade directive exporting all of your named Laravel routes. Also provides a nice route() helper function in JavaScript.",
+    "description": "Identical to ziggy but uses var instead of const.",
     "keywords": ["laravel", "routes", "javascript", "ziggy"],
     "homepage": "https://github.com/orthodoxauto/ziggy-without-const",
     "license": "MIT",
@@ -9,16 +9,8 @@
     },
     "authors": [
         {
-            "name": "Daniel Coulbourne",
-            "email": "daniel@tighten.co"
-        },
-        {
-            "name": "Jake Bathman",
-            "email": "jake@tighten.co"
-        },
-        {
-            "name": "Jacob Baker-Kretzmar",
-            "email": "jacob@tighten.co"
+            "name": "CashforCars.io",
+            "email": "admin@cashforcars.io"
         }
     ],
     "autoload": {
